@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+  <link rel="stylesheet" href="./backup.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">Food Restaurant</div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#specials">Specials</a></li>
+      <li><a href="#hours">Hours</a></li>   <!-- new link -->
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#Reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+      
+    
+  </nav>
+</header>
+
+
+  
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>VNS Food Restaurant</h1>
+      <p>Welcome to VNS — where taste meets tradition and every bite is a memory.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+<!-- About Us Section -->
+<section class="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Delicious Dish from VNS">
+    </div>
+
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        At <strong>VNS Food Restaurant</strong>, we believe food is not just about taste — it’s about connection,
+        culture, and comfort. Founded with a love for traditional recipes, we aim to serve dishes
+        that bring back warm memories while introducing new favorites.
+      </p>
+
+      <!-- Checkbox Toggle -->
+      <input type="checkbox" id="toggle-read" class="read-toggle">
+
+      <!-- Hidden content -->
+      <div class="read-more">
+        <p>
+          From hearty breakfasts to soulful dinners, every ingredient we use is fresh, flavorful, and thoughtfully chosen.
+          Whether you're a regular or a first-time visitor, we treat everyone like family — because here at VNS,
+          you're not just eating, you're creating memories.
+        </p>
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=900&q=80" alt="Chef at work">
+      </div>
+
+      <!-- Button label -->
+      <label for="toggle-read" class="read-btn"></label>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<!-- Menu Section -->
+<section class="menu" id="menu">
+  <div class="menu-container">
+    <h2>Our Signature Dishes</h2>
+    <div class="menu-grid">
+      <!-- Item 1 -->
+      <div class="menu-item">
+        <img src="./curry.jpg" alt="Spicy Chicken Curry">
+        <h3>Spicy Chicken Curry</h3>
+        <p>Rich & flavorful, cooked with traditional spices.</p>
+        <span>₹180</span>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="menu-item">
+        <img src="./indias.jpg" alt="Veg Thali">
+        <h3>South Indian Veg Thali</h3>
+        <p>A wholesome platter of classic vegetarian dishes.</p>
+        <span>₹150</span>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="menu-item">
+        <img src="./delicious-indian-dosa-composition.jpg" alt="Masala Dosa">
+        <h3>Masala Dosa</h3>
+        <p>Golden crisp dosa with spicy potato stuffing.</p>
+        <span>₹90</span>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="menu-item">
+        <img src="./psneer.jpg" alt="Paneer Butter Masala">
+        <h3>Paneer Butter Masala</h3>
+        <p>Creamy tomato gravy with tender paneer cubes.</p>
+        <span>₹160</span>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="menu-item">
+        <img src="./Ghee Roas.jpg"alt="Ghee Roast">
+        <h3>Ghee Roast</h3>
+        <p>Traditional coastal-style spicy roast cooked in ghee.</p>
+        <span>₹130</span>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="menu-item">
+        <img src="./curd rice.jpg" alt="Curd Rice">
+        <h3>Curd Rice</h3>
+        <p>Soothing and cool with mustard and curry leaf tempering.</p>
+        <span>₹80</span>
+      </div>
+    </div>
+  </div>
+   
+  
+
+</section>
+
+
+<!-- Specials Section -->
+
+ 
+
+<section id="specials" class="retro-menu">
+  
+  <h2 class="section-title">✨ Chef's Specials Today</h2>
+  <div class="specials-layout">
+
+  <div class="specials-text">
+    <p class="specials-description">
+      Welcome to our Chef’s Specials — a curated selection of extraordinary dishes crafted fresh each day. 
+      Our chefs combine passion, creativity, and the finest seasonal ingredients to bring you flavors that go beyond the ordinary. 
+      Whether you're craving something hearty, light, or completely unexpected, each special is designed to deliver a memorable dining experience. 
+      From savory pastas drizzled with truffle oil to fresh garden salads bursting with color, every bite is a celebration of taste and tradition. 
+      Explore our rotating specials, available for a limited time only, and treat yourself to something truly delicious and unforgettable today.
+      <br><br>
+    </p>
+  
+
+  </div>
+
+  <div class="specials-image">
+    <img src="./cheif.avif" alt="Chef Special Dish">
+    
+  </div>
+  </div>
+
+
+
+
+  <!-- ✅ All 6 dishes wrapped in the same .menu-grid -->
+  <div class="specials-grid">
+    <!-- Special 1 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./creamy.avif" alt="Creamy Garlic Pasta">
+          <h3>Creamy Garlic Pasta</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Creamy Garlic Pasta</h3>
+          <p>A rich, creamy blend with garlic and parmesan</p>
+          <span>₹220</span>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special 2 -->
+    <!-- Special 2 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./griled.avif" alt="Grilled Chicken">
+          <h3>Grilled Chicken</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Grilled Chicken</h3>
+          <p>Flame-grilled chicken with house marinade</p>
+          <span>₹290</span>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special 3 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./mango.jpg" alt="Mango Delight">
+          <h3>Mango Delight</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Mango Delight</h3>
+          <p>Fresh mango dessert, light and refreshing</p>
+          <span>₹120</span>
+          <button>Try Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special 4 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./paneer tika.jpg" alt="Paneer Tikka">
+          <h3>Paneer Tikka</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Paneer Tikka</h3>
+          <p>Grilled paneer cubes in spicy marinade</p>
+          <span>₹180</span>
+          <button>Try Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special 5 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./pizza.jpg" alt="Veggie Supreme Pizza">
+          <h3>Veggie Supreme Pizza</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Veggie Supreme Pizza</h3>
+          <p>Topped with bell peppers, olives & cheese</p>
+          <span>₹240</span>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Special 6 -->
+    <div class="specials-item">
+      <div class="specials-card">
+        <div class="specials-front">
+          <img src="./lava-cholate.jpg" alt="Chocolate Lava Cake">
+          <h3>Chocolate Lava Cake</h3>
+        </div>
+        <div class="specials-back">
+          <h3>Chocolate Lava Cake</h3>
+          <p>Warm cake with a gooey chocolate center</p>
+          <span>₹130</span>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- Opening Hours Section -->
+<section class="hours" id="hours">
+  <div class="hours-container">
+    <h2>Opening Hours</h2>
+    <p class="subtitle">Come taste the tradition any day of the week!</p>
+
+    <!-- 🎉 Holiday Notice -->
+    <div class="holiday-banner">
+      🎉 We’ll be closed on <strong>15th August</strong> for Independence Day!
+    </div>
+
+    <div class="hours-table">
+      <div><span>🍽️ Monday</span><span>9:00 AM – 10:00 PM</span></div>
+      <div><span>🍽️ Tuesday</span><span>9:00 AM – 10:00 PM</span></div>
+      <div><span>🍽️ Wednesday</span><span>9:00 AM – 10:00 PM</span></div>
+      <div><span>🍽️ Thursday</span><span>9:00 AM – 10:00 PM</span></div>
+      <div><span>🍽️ Friday</span><span>9:00 AM – 11:00 PM</span></div>
+      <div><span>🍰 Saturday</span><span>10:00 AM – 11:00 PM</span></div>
+      <div><span>☕ Sunday</span><span>10:00 AM – 9:00 PM</span></div>
+    </div>
+  </div>
+</section>
+<!-- Food Gallery Section -->
+<section class="gallery" id="gallery">
+  <div class="gallery-container">
+    <h1 class="section-title">Our Food Gallery</h1>
+    <p class="subtitle">Taste with your eyes before your plate arrives!</p>
+    
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <span class="ribbon">New</span>
+      <img src="./panner tikka.jpg" alt="Paneer Tikka">
+      <div class="caption">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled with bold spices and herbs</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+
+
+    <div class="gallery-item">
+      <span class="ribbon">Hot</span>
+      <img src="./chiken.jpg"alt="Chicken Biryani">
+      <div class="caption">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant rice cooked with marinated chicken</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <span class="ribbon">Popular</span>
+      <img src="./samosa.jpg" alt="Samosa">
+      <div class="caption">
+        <h3>Samosa</h3>
+        <p>Crispy pastry filled with spiced potatoes</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <span class="ribbon">Spicy</span>
+      <img src="./chii.jpg" alt="Chili Chicken">
+      <div class="caption">
+        <h3>Chili Chicken</h3>
+        <p>Spicy Indo-Chinese favorite with a kick</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <span class="ribbon">Classic</span>
+      <img src="./butter.avif" alt="Butter Chicken">
+      <div class="caption">
+        <h3>Butter Chicken</h3>
+        <p>Rich, creamy tomato-based chicken curry</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+
+    
+
+
+
+
+</div>
+</section>
+
+
+<section class="testimonials-carousel">
+  <h2>What Our Customers Say</h2>
+
+  <div class="carousel-wrapper">
+    <div class="arrow left">❮</div>
+
+    <div class="carousel-scroll">
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophia Lee">
+        <p>"The food here is absolutely delicious! The ambiance is cozy and the staff is super friendly."</p>
+        <h4>Sophia Lee</h4>
+        <span>New York, USA</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="James Carter">
+        <p>"Best dining experience I've had in a long time. Highly recommend the seafood pasta."</p>
+        <h4>James Carter</h4>
+        <span>London, UK</span>
+      </div>
+
+      
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Maria Gonzalez">
+        
+        <p>"A perfect place for family dinners. Great menu variety and very attentive service."</p>
+        <h4>Maria Gonzalez</h4>
+        <span>Madrid, Spain</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Mark Wilson">
+        <p>"Amazing flavors and fantastic service! Definitely coming back."</p>
+        <h4>Mark Wilson</h4>
+        <span>Toronto, Canada</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/52.jpg" alt="Linda Kim">
+        <p>"Cozy atmosphere and excellent menu choices. Loved every bite!"</p>
+        <h4>Linda Kim</h4>
+        <span>Sydney, Australia</span>
+      </div>
+    </div>
+
+
+    <div class="arrow right">❯</div>
+  </div>
+</section>  
+
+
+
+
+
+
+
+
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Contact Us</h2>   
+      <p>Have questions or want to make a reservation? Reach out!</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="map">
+      <iframe 
+        src="https://maps.google.com/maps?q=VNS%20Cafe%20n%20Restaurant%2C%20T-2%2C%20R.K.%20Puram%20Colony%2C%20N.%203%2F75%2C%20Karmajeetpur%2C%20Karamjeetpur%2C%20Sundarpur%2C%20Newada%2C%20Varanasi%2C%20Uttar%20Pradesh%20221005&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy">
+ 
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <img src="./images.jpg" alt="VNS Logo" class="footer-logo" />
+
+    <div class="footer-text">
+      <p>&copy; 2025 VNS Food Restaurant. All rights reserved.</p>
+      <p>Delivering happiness since 2005. You are always welcome at VNS Restaurant!</p>
+      <p>Visit us: VNS Cafe n Restaurant, T-2, R.K. Puram Colony, Karmajeetpur, Varanasi, UP 221005</p>
+    </div>
+
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
